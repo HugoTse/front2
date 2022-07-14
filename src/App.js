@@ -18,6 +18,8 @@ import {
 
 function App({ signOut }) {
 
+  const[cid, setcid] = useState('')
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Handle submit was called');
@@ -34,8 +36,9 @@ function App({ signOut }) {
         handleSubmit={handleSubmit} 
       />
 
-      
-      <Button onClick={signOut}>Sign Out</Button>
+      <Card>
+        <Button onClick={signOut}>Sign Out</Button>
+      </Card>
     </View>
   );
 }
