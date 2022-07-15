@@ -50,3 +50,23 @@ code {
     transform: rotate(360deg);
   }
 }
+
+.formDiv {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.input {
+  width: 60%;
+}
+
+.submitButton {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.inputHeader {
+  text-align: left;
+  margin-left: 20%;
+}
